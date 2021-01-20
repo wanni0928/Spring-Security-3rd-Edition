@@ -1,0 +1,48 @@
+### .gitignore ###
+
+.gradle
+/build/
+out/
+
+!gradle/wrapper/gradle-wrapper.jar
+
+!.circleci
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+bin/
+
+### Other ignores ###
+
+target/
+.DS_Store
+
+*.bak
+*.diff
+
+
+### Vagrant
+.vagrant/
+*.box
+
+### THE END ###
